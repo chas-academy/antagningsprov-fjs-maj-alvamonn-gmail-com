@@ -11,7 +11,7 @@ function uppg9 (){
     function sort(array){
 
         for(let i of array){
-            if (i % 2 !== 1){ //om resten av talet dividerat med 2 inte är 1
+            if (i % 2 === 0){ //om resten av talet dividerat med 2 är 0
                 console.log(i, "jämt")
             }
             else{ //resten skulle isf bli 1
