@@ -12,7 +12,7 @@ function uppg9 (){
 
         for(let i of array){
             if (i % 2 === 0){ //om resten av talet dividerat med 2 är 0
-                console.log(i, "jämt")
+                console.log(i, "jämnt")
             }
             else{ //resten skulle isf bli 1
                 console.log(i, "udda")
