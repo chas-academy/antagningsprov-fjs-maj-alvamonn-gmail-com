@@ -11,7 +11,7 @@ function uppg7() {
         return sum
     }
 
-    return addNumbers(5, 10) //Kallar jag på funktionen i en return statement
+    return addNumbers(5, 10) //Kallar på funktionen i en return statement
 }
  
 console.log(uppg7()) //Skriver ut summan av parametrarna
