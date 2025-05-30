@@ -7,9 +7,14 @@ function uppg3() {
     // tilldela värdena 5 och 10 till variablerna
     // skriv ut summan av a och b i konsolen
 
+    const a = 5
+    const b = 10
+    sum = a + b
 
-
+    return sum
 }
+
+console.log(uppg3())
 
 
 module.exports = { uppg3 };
