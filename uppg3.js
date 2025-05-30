@@ -11,10 +11,10 @@ function uppg3() {
     const b = 10
     sum = a + b
 
-    return sum
+    console.log(sum)
 }
 
-console.log(uppg3())
+uppg3()
 
 
 module.exports = { uppg3 };
