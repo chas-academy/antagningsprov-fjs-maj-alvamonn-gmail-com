@@ -14,6 +14,6 @@ function uppg7() {
     return addNumbers(5, 10) //Kallar jag på funktionen i en return statement
 }
  
-console.log(uppg7())
+console.log(uppg7()) //Skriver ut summan av parametrarna
 
 module.exports = { uppg7 };
