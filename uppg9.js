@@ -12,10 +12,12 @@ function uppg9 (){
 
         for(let i of array){
             if (i % 2 !== 1){ //om resten av talet dividerat med 2 inte är 1
-                console.log(i, "jämnt")
+                console.log(i)
+                console.log("jämnt")
             }
             else{ //resten skulle isf bli 1
-                console.log(i, "udda")
+                console.log(i)
+                console.log("udda")
             }
         }
     }
